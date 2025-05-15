@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="fontawesome-free-6.7.2-web/css/all.css " />
+
+  <title>Buildhathon 3</title>
+  
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="#" class="logo">Buildhathon 4.0</a>
+    <ul>
+            <li class="active"><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="#about"><i class="fa-solid fa-circle-info"></i> About</a></li>
+            <li><a href="#schedule"><i class="fa-solid fa-calendar-days"></i> Schedule</a></li>
+            <li><a href="#sponsorship"><i class="fa-solid fa-handshake-angle"></i> Sponsorship</a></li>
+            <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+          
+    </ul>
+  </nav>
+  <div class="register-container">
+    <a href="#register" class="register-btn">Register Here!</a>
+  </div>
+   <!-- Modal Form -->
+   <div class="modal" id="registerModal">
+    <div class="modal-content">
+      <span class="close-btn" id="closeModal">&times;</span>
+      <h2>Register</h2>
+      <form id="registerForm">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" required />
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required />
+
+        <label for="repassword">Re-enter Password</label>
+        <input type="password" id="repassword" name="repassword" required />
+
+        <div class="checkbox-container">
+          <input type="checkbox" id="terms" name="terms" required />
+          <label for="terms">I have read all the terms and conditions</label>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <div class="social-contact">
+        <a href="https://www.facebook.com" target="_blank" title="Facebook">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://www.linkedin.com" target="_blank" title="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <section class="about-section" id="about">
+    <div class="about-content">
+      <h2 class="section-title">What is</h2>
+      <h1 class="highlight-title">Buildhathon 4.0?</h1>
+      <p class="about-desc">
+        Buildhathon 4.0 is an innovative national-level hackathon hosted by ITM Skills University.
+        This 3-day event aims to unite talented students from across the country, empowering them 
+        to apply their creativity and problem-solving skills to real-world challenges in software 
+        and hardware development. The hackathon fosters collaboration, learning, and technical growth 
+        while providing a platform for groundbreaking solutions that address modern societal and industry needs.
+      </p>
+    </div>
+  </section>
+  <section class="stats-section">
+    <div class="stats-container">
+      <div class="stat-card">
+        <h2>100,000+</h2>
+        <p>Prize Pool</p>
+      </div>
+      <div class="stat-card">
+        <h2>200+</h2>
+        <p>Registrations</p>
+      </div>
+      <div class="stat-card">
+        <h2>50+</h2>
+        <p>Teams</p>
+      </div>
+      <div class="stat-card">
+        <h2>17+</h2>
+        <p>Themes</p>
+      </div>
+      <div class="stat-card">
+        <h2>10+</h2>
+        <p>Companies</p>
+      </div>
+      <div class="stat-card">
+        <h2>20+</h2>
+        <p>Sponsors</p>
+      </div>
+    </div>
+  </section>
+  
+  
+</section>
+  <section class="event-details">
+    <div class="event-date">
+      <h2>Event Dates</h2>
+      <p>June 21 – June 23, 2025</p>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <h3>Ideation</h3>
+        <div class="card-details">
+          <p>Participants come together to form teams and brainstorm innovative, impactful solutions to real-world challenges. This phase emphasizes creativity, problem identification, and conceptual clarity to lay a strong foundation for the project.</p>
+        </div>
+      </div>
+      
+      <div class="info-card">
+        <h3>Development</h3>
+        <div class="card-details">
+          <p>Over an intense 48-hour period, teams transform their ideas into tangible prototypes using software coding, hardware assembly, or a combination of both. This phase involves continuous testing, debugging, and refining to build a functional and polished product.</p>
+        </div>
+      </div>
+      
+      <div class="info-card">
+        <h3>Mentoring</h3>
+        <div class="card-details">
+          <p>Experienced industry professionals and academic mentors provide expert guidance throughout the hackathon. They help teams overcome technical hurdles, improve design and functionality, and craft compelling pitches to effectively communicate their solutions.</p>
+        </div>
+      </div>
+      
+      <div class="info-card">
+        <h3>Final Pitch</h3>
+        <div class="card-details">
+          <p>In the concluding stage, teams present their projects to a distinguished panel of judges. They demonstrate the innovation, feasibility, and potential societal impact of their solutions, competing to earn recognition and exciting prizes.</p>
+        </div>
+      </div>
+    </div>
+    <section class="glimpses-section">
+      <h2 class="glimpses-title">Glimpses of Buildhathon 3.0</h2>
+      <div class="slider-container">
+        <button class="arrow left" onclick="moveSlide(-1)">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        
+        <div class="slider" id="slider">
+          <img src="IMG_20241206_143812.jpg" alt="Glimpse 1" class="slide active" />
+          <img src="jyuoblujytmqpmwxtj1w.jpeg" alt="Glimpse 2" class="slide" />
+          <img src="poaokv6qc4ho0tighvcf.jpeg" alt="Glimpse 3" class="slide" />
+          <img src="pvkdqyf7dahv0vlphdz5.jpeg" alt="Glimpse 4" class="slide" />
+          <img src="q5xsl3bpcsii44vfhtu6.jpeg" alt="Glimpse 5" class="slide" />
+          <img src="u6qmtaupllkql73rnmge.jpeg" alt="Glimpse 5" class="slide" />
+        </div>
+    
+        <button class="arrow right" onclick="moveSlide(1)">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+    </section>
+    <section class="schedule" id="schedule">
+      <h2>Schedule</h2>
+      <div class="schedule-content">
+        <div class="schedule-item">
+          <h3>Day 1</h3>
+          <p>Opening Ceremony, Team Registrations & Networking</p>
+        </div>
+        <div class="schedule-item">
+          <h3>Day 2</h3>
+          <p>Hackathon Begins, Mentorship Sessions, Checkpoints</p>
+        </div>
+        <div class="schedule-item">
+          <h3>Day 3</h3>
+          <p>Project Submissions, Presentations & Judging</p>
+        </div>
+      </div>
+    </section>
+    <section class="sponsor-section">
+      <div class="sponsor-wrapper">
+        <div class="sponsor-card">
+          <p>Reach hundreds of students and potential customers by sponsoring HackOverFlow 2.0</p>
+          <h2>WANT TO<br>SPONSOR<br>US</h2>
+          <div class="sponsor-buttons">
+            <a href="Sponsorship" class="sponsor-btn">Brochure</a>
+            <a href="mailto:someone@example.com" class="sponsor-btn">E-mail us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="faq-section">
+      <h2>Frequently<br>Asked<br>Questions</h2>
+      
+      <div class="faq-item">
+        <button class="faq-question">
+          Can I participate if I'm a beginner? 
+          <span class="arrow">&#9660;</span>
+        </button>
+        <div class="faq-answer">
+          <p>Yes! Beginners are welcome to participate and learn along the way.</p>
+        </div>
+      </div>
+      
+      <div class="faq-item">
+        <button class="faq-question">
+          How to register for the offline?
+          <span class="arrow">&#9660;</span>
+        </button>
+        <div class="faq-answer">
+          <p>You can register offline by visiting our office or contacting our support team.</p>
+        </div>
+      </div>
+      
+      <div class="faq-item">
+        <div class="faq-question">
+          What is the maximum number of members allowed in a group?
+          <span class="arrow">▼</span>
+        </div>
+        <div class="faq-answer">
+          <p>A team can have a maximum of 4 members.</p> <!-- ← adjust this as per actual rules -->
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          What are the arrangements for accommodation?
+          <span class="arrow">▼</span>
+        </div>
+        <div class="faq-answer">
+          <p>Accommodation will be provided to all outstation participants free of cost. Details regarding the location and facilities will be shared via email after registration.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          What food arrangements are in place for the hackathon?
+          <span class="arrow">▼</span>
+        </div>
+        <div class="faq-answer">
+          <p>All registered participants will be provided with meals and refreshments throughout the event duration, including breakfast, lunch, dinner, and snacks. Vegetarian options will be available. Please inform us in advance about any specific dietary requirements.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          Will there be any mentorship sessions during the hackathon?
+          <span class="arrow">▼</span>
+        </div>
+        <div class="faq-answer">
+          <p>Yes, experienced mentors from industry and academia will be available throughout the event to guide teams, provide feedback, and help with technical or strategic challenges. Mentorship sessions will be both scheduled and on-demand.</p>
+        </div>
+      </div>
+                  
+    
+  
+    <script src="script.js"> </script>
+</body>
+
+</html>
+
+
+
