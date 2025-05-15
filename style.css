@@ -749,3 +749,20 @@
 .minutes { background-color:  #11211a; }
 .seconds { background-color:  #11211a; }
 
+
+footer {
+  background-color: #002200; 
+  color: #a0f0a0; 
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 -2px 10px rgba(0, 128, 0, 0.5);
+}
+
+.footer-content p {
+  margin: 5px 0;
+}
+
+
