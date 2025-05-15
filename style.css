@@ -225,10 +225,14 @@
     transform: translateY(40px);
   }
   .about-desc {
-    font-size: 40px; /* Increased from 20px */
+    font-size: 30px; /* Increased from 20px */
     line-height: 1.8;
     color: #e5fef5;
-}
+  
+  }
+
+ 
+
 
  
   .about-section:hover .about-content {
@@ -250,12 +254,21 @@
     margin-bottom: 30px;
   }
   
-  .about-desc {
-    font-size: 20px;
-    line-height: 1.8;
-    color: #e5fef5;
+
+  
+  .about-desc::before,
+  .about-desc::after {
+      display: none !important;
+      content: "" !important;
+      width: 0 !important;
+      height: 0 !important;
   }
   
+
+
+
+
+
   /* Smooth fade-up animation */
   @keyframes fadeInUp {
     0% {
@@ -419,7 +432,7 @@
   display: block;
 }
 
-.arrow {
+.a {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -434,15 +447,15 @@
   transition: background-color 0.3s ease;
 }
 
-.arrow:hover {
+.a :hover {
   background-color: #38d39f;
 }
 
-.arrow.left {
+.a.left {
   left: 10px;
 }
 
-.arrow.right {
+.a.right {
   right: 10px;
 }
 .schedule {
@@ -611,7 +624,7 @@
   background-color: #2b665d;
 }
 
-.arrow {
+.a {
   font-size: 18px;
   transition: transform 0.3s ease;
 }
@@ -638,9 +651,12 @@
   padding: 10px 20px;
 }
 
-.faq-item.active .arrow {
+.faq-item.active .a {
   transform: rotate(180deg);
 }
+
+
 .arrow {
   display: none
 }
+
